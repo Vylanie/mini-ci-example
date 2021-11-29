@@ -50,4 +50,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: vylanie/app:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/app:latest
